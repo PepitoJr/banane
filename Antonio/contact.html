@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Église pentecôtisme la Gloire de l'Éternel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="./image/couche.jpg">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/logo_eglise.png" alt="" >
+            <h1>Église pentecôtisme la Gloire de l'Éternel</h1>
+            <img src="./image/epge.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li class="nav btn1"><a href="Accueil.html">Accueil</a></li>
+                <li class="nav btn2"><a href="A_propos.html">À propos</a></li>
+                <li class="nav btn3"><a href="service.html">Services</a></li>
+                <li class="nav btn4"><a href="evenement.html">Événements</a></li>
+                <li class="nav btn5"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact">
+        <fieldset>
+            <h2>Laissez nous vos informations :</h2>
+            <form id="registrationForm" action="https://formspree.io/f/xleqvjyj" method="post">
+                <label  class="taille" for="Prénom">Prénom :</label> 
+                <input class="valeur" type="text" id="Prénom" name="Prénom" placeholder="Entrer votre prénom" required ><br><br>
+                <label class="taille" for="Nom">Nom :</label>
+                <input type="text" id="Nom" name="Nom" placeholder="Entrer votre nom"required><br><br>
+                <label class="taille" for="numero">Téléphone :</label>
+                <input type="tel" id="numero" name="numero" placeholder="Numéro de telephone"required><br><br>
+                <label class="taille" for="email">Courriel :</label>
+                <input type="email" id="email" name="email"placeholder="Votre adresse mail" required><br><br>
+                <label class="taille" for="password">Mot de passe :</label>
+                <input type="password" id="password" name="mot de passe"required><br><br>
+                <label class="taille" for="sexe">Sexe :</label>
+                <label  for="male">M</label>
+                <input type="radio" id="male" name="sexe" value="masculin" required>
+                <label for="female">F</label>
+                <input type="radio" id="female" name="sexe" value="femme" required><br><br>
+                <label class="taille" for="Pays">Pays :</label>
+                <select id="Pays" name="Pays">
+                    <option value="Senegal">Senegal</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Cote d'ivoire">Cote d'ivoire</option>
+                    <option value="République démocratique du Congo">République démocratique du Congo</option>
+                    <option value="Égypte">Égypte</option>
+                    <option value="France">France</option>
+                    <option value="Suisse">Suisse</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Guinée">Guinée</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Cameroun">Cameroun</option>
+                    <option value="Équateur">Équateur</option>
+                    <option value="Chine">Chine</option>
+                    <option value="Belgique">Belgique</option>
+                    <option value="japon">japon</option>
+                    <option value="Ebrim">Ebrim</option>
+                </select><br><br>
+                <label class="taille" for="Comment">Commentaire :</label> <br><br>
+                <textarea name="Commentaire" id="Comment" cols="60" rows="10"></textarea>
+                <br><br><br>
+ <div class="btn-validation">
+    <input type="submit"  class="btn-form soumettre" value="Submit" id="submit" >
+    <input type="reset"   class="btn-form restaure" value="Reset" >
+    <input type="button"  class="btn-form supprime" value="Delete">
+ </div>
+            </form>
+        </fieldset>
+    </section>
+    <footer>
+        <p>© 2024 Église pentecôtisme la Gloire de l'Éternel. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

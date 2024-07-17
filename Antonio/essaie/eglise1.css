@@ -1,0 +1,16 @@
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 1vh;
+}
+.navbar{
+   background-color:black;
+   height: 3.1vh;
+}

@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(44, 92, 159);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    max-height: 200px;;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+.bien{
+    background-color: rgb(44, 92, 159);
+    color: #fff;   
+}
+.titre{
+    font-size: 6vh; 
+}
+.contenu{
+    font-style: oblique;
+    font-size: 2vh;
+}
+.posi{
+    text-align: center;
+    font-size: 2.6vh;   
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 2vh;
+    border-radius: 9vh;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+.icon img{
+    width: 4vh;
+    height: 4vh;
+    border-radius: 9vh;
+    
+}
+.icon a{
+    text-decoration: none;
+    color: inherit;
+}
+span{
+    margin-left: 1.5vh;
+    margin: 1vh ;
+}
+#contact{
+   background-color: rgba(71, 113, 113,0.5);
+   max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+footer {
+    background-color: rgb(44, 92, 159);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* le navbar*/
+.nav a:hover
+{
+    color: #FF554F;
+    opacity: 0.8;
+    transition: 1s;
+}
+/* je touche le header*/
+header
+{
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+/*je suis sur le para introductif*/
+.home
+{
+    max-width: 750px;
+}
+.titre
+{
+    text-align: center;
+}
+.contenu
+{
+    text-align: center;
+}
+.home
+{
+    margin:auto;
+}
+/*formulaire*/
+.taille
+{
+    display: inline-block;
+    width: 150px;
+    font-size: 18px;
+
+}
+#Prénom,#Nom,#numero,#email,#password,#Pays
+{
+    width: 250px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+.btn-form
+{
+    width: 130px;
+    height: 60px;
+    border:none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #eae8e8;
+}
+.soumettre:hover
+{
+    background-color: rgb(131, 213, 131,0.8);
+    color: #fff;
+    transition: 500ms;
+}
+.restaure:hover
+{
+    background-color: rgb(81, 81, 221);
+    color: #fff;
+    transition: 500ms;
+    opacity: 0.8;
+}
+.supprime:hover
+{
+    background-color: rgba(212, 49, 49, 0.8);
+    color: #fff;
+    transition: 500ms;
+}
+.btn-validation
+{
+    display: flex;
+    justify-content: space-around;
+}
+fieldset h2
+{
+    text-align: center;
+    color: rgb(51, 49, 49);
+    font-size: 25px;
+}

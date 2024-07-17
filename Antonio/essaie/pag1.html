@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page accueil</title>
+    <link rel="stylesheet" href="eglise.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">La Gloire de l'Éternel</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="home.html">Accueil</a></li>
+                <li><a href="#">Departement</a></li>
+                <li><a href="#">support</a></li>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <img src="./image/button2.png" alt="menuhamburger" class="menuhamburger">
+    </nav>
+    <header></header>
+
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menuhamburger")
+    const navLinks = document. querySelector(".nav-links")
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('menu-mobile')
+    })
+</script>
+</html>
